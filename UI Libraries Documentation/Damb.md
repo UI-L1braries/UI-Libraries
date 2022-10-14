@@ -21,3 +21,19 @@ local Button = Window:CreateButton({
    end
 })
 ```
+
+## Creating A Label
+```lua
+local Label = Window:CreateLabel({
+   Name = "Label"
+})
+```
+
+## Creating A Notification
+```lua
+local Notification = Window:CreateNotification({
+   Name = "Notification Title",
+   Description = "Description",
+   Duration = 10
+})
+```
