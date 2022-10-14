@@ -1,8 +1,13 @@
+--[[
+   if you are viewing this, this ui library may be DUMB, but has a unique feature called Notification
+   yeah most UI Libraries dont have Notifications, Orion UI Library has notification which i thought it was cool
+   peace and enjoy the source
+]]
 local Library = {}
 
 function Library:NewWindow(options)
 	--all the useless stuft
-	
+	--if it found a copy of the UI Then it will destroy the UI and put a new one with the desired features.
 	if game.CoreGui:FindFirstChild("Damb") then
 	    game.CoreGui:FindFirstChild("Damb"):Destroy()
 	    print("Found a copy of '"..options.Name.."', destroying copy...")
