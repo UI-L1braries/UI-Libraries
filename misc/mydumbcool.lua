@@ -25,11 +25,19 @@ local EButton = Window:CreateButton({
 	   end
    end
 })
-local EButton = Window:CreateButton({
+local BButton = Window:CreateButton({
    Name = "IFANATA YALD",
    Callback = function()
        do
 		   loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+	   end
+   end
+})
+local FButton = Window:CreateButton({
+   Name = "GAMING WAREE",
+   Callback = function()
+       do
+		   loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/danielgamerito/main/GamingWare.lua", true))()
 	   end
    end
 })
