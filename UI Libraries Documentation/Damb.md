@@ -1,6 +1,6 @@
 # Damb UI Library Documentation
 
-### Made by NWhut#4274
+### Made by UI Libraries Contact#4274 (aka me)
 
 ### ALSO THIS IS A LEVEL 7 UI LIBRARY, WHICH LEVEL 6 EXECUTORS CANT RUN
 ### BEWARE OF THAT
