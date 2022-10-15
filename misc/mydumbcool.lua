@@ -51,7 +51,7 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 		end
 	})
 	local Label = Window:CreateLabel({
-		Name = "THIS IS NOT FOR MY BROTHER"
+		Name = "hello frickin "..game.Players.LocalPlayer.Name.."."
 	})
 	if game.Players.LocalPlayer.UserId == 3975293822 then
 		local Notification = Window:CreateNotification({
