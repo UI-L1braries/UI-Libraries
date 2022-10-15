@@ -1,4 +1,4 @@
-if game.Players.LocalPlayer.UserId == {3975293822} or {3974668304} then
+if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
 	local Window = Library:NewWindow({
 		Name = "Daniel's Coolio"
