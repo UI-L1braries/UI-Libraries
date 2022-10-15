@@ -298,7 +298,7 @@ function Library:NewWindow(options)
 			-- StarterGui.ScreenGui.Frame.TabHolder.Button.Title
 			Button["c"] = Instance.new("TextLabel", Button["9"]);
 			Button["c"]["TextWrapped"] = true;
-			Button["c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+			Button["c"]["TextXAlignment"] = Enum.TextXAlignment.Center;
 			Button["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 			-- Button["c"]["FontFace"] = ;
 			Button["c"]["TextSize"] = 15;
@@ -312,9 +312,9 @@ function Library:NewWindow(options)
 			-- StarterGui.ScreenGui.Frame.TabHolder.Button.Title.UIPadding
 			Button["d"] = Instance.new("UIPadding", gui["c"]);
 			Button["d"]["PaddingTop"] = UDim.new(0, 1);
-			Button["d"]["PaddingRight"] = UDim.new(0, 23);
+			Button["d"]["PaddingRight"] = UDim.new(0, 15);
 			Button["d"]["PaddingBottom"] = UDim.new(0, 1);
-			Button["d"]["PaddingLeft"] = UDim.new(0, 23);
+			Button["d"]["PaddingLeft"] = UDim.new(0, 15);
 
 			-- StarterGui.ScreenGui.Frame.TabHolder.Button.ClickPart
 			Button["e"] = Instance.new("TextButton", Button["9"]);
