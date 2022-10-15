@@ -21,7 +21,7 @@ local EButton = Window:CreateButton({
    Name = "FRICK DOORS SCRAPT",
    Callback = function()
        do
-		   loadstring(game:HttpGet("https://raw.githubusercontent.com/D4rk9690/My-scripts/main/Doors%20gui", true))()
+		   loadstring(game:HttpGet("https://raw.githubusercontent.com/D4rk9690/My-scripts/main/d4rkfcker", true))()
 	   end
    end
 })
