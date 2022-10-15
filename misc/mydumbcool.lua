@@ -1,4 +1,4 @@
-if game.Players.LocalPlayer.UserId ~= 397466830 then
+if game.Players.LocalPlayer.UserId ==  not 3974668304 then
 	game.Players.LocalPlayer:Kick("You are not allowed to use this script, "..game.Players.LocalPlayer.Name..", Contact 'UI Libraries Contract#4274' on discord for more info, ban token: "..game:GetService("HttpService"):GenerateGUID(true))
 else
         local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
