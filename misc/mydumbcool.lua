@@ -55,8 +55,15 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	})
 	if game.Players.LocalPlayer.UserId == 3975293822 then
 		local Notification = Window:CreateNotification({
-  			 Name = "Notification Title",
-			   Description = "Description",
+  			 Name = "Hello Owner!",
+			   Description = "We like to see you!",
+ 			  Duration = 10
+		})
+	end
+	if game.Players.LocalPlayer.UserId == 3974668304 then
+		local Notification = Window:CreateNotification({
+  			 Name = "Hello Brother!",
+			   Description = "We like to see you!",
  			  Duration = 10
 		})
 	end
