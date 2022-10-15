@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
 local Window = Library:NewWindow({
-   Name = "Vynixius fr"
+   Name = "Daniel's Coolio"
 })
 local Button = Window:CreateButton({
    Name = "Vynixius lol",
