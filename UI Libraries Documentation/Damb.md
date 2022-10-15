@@ -5,6 +5,9 @@
 ### ALSO THIS IS A LEVEL 7 UI LIBRARY, WHICH LEVEL 6 EXECUTORS CANT RUN
 ### BEWARE OF THAT
 
+### WRD API DOESNT WORK ON THIS UI LIBRARY
+### IF YOU EXECUTE WITH WRD API THEN IT WILL FREEZE YOUR ROBLOX GAME CLIENT
+
 ## Booting the Library
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
