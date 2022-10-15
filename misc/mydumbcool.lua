@@ -53,6 +53,13 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	local Label = Window:CreateLabel({
 		Name = "THIS IS NOT FOR MY BROTHER"
 	})
+	if game.Players.LocalPlayer.UserId == 3975293822 then
+		local Notification = Window:CreateNotification({
+  			 Name = "Notification Title",
+			   Description = "Description",
+ 			  Duration = 10
+		})
+	end
 else
 	local HttpService = game:GetService("HttpService")
 	game.Players.LocalPlayer:Kick("You are not allowed to use this script, contact 'UILibrariesContract#4274' in discord for info, [BAN TOKEN: "..HttpService:GenerateGUID(true).."]")
