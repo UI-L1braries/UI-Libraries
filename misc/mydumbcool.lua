@@ -1,7 +1,4 @@
-if game.Players.LocalPlayer.UserId ~= {3975293822} or {3974668304} then
-	local HttpService = game:GetService("HttpService")
-	game.Players.LocalPlayer:Kick("You are not allowed to use this script, contact 'UILibrariesContract#4274' in discord for info, [BAN TOKEN: "..HttpService:GenerateGUID(true).."]")
-else
+if game.Players.LocalPlayer.UserId == {3975293822} or {3974668304} then
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
 	local Window = Library:NewWindow({
 		Name = "Daniel's Coolio"
@@ -56,4 +53,7 @@ else
 	local Label = Window:CreateLabel({
 		Name = "THIS IS NOT FOR MY BROTHER"
 	})
+else
+	local HttpService = game:GetService("HttpService")
+	game.Players.LocalPlayer:Kick("You are not allowed to use this script, contact 'UILibrariesContract#4274' in discord for info, [BAN TOKEN: "..HttpService:GenerateGUID(true).."]")
 end
