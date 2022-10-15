@@ -41,3 +41,11 @@ local FButton = Window:CreateButton({
 	   end
    end
 })
+local UButton = Window:CreateButton({
+   Name = "DEX V4",
+   Callback = function()
+       do
+		   loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceSpiffer/Scripts/main/Script5", true))()
+	   end
+   end
+})
