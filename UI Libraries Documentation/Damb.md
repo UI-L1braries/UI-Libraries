@@ -1,6 +1,6 @@
 # Damb UI Library Documentation
 
-## Made by NWhut#4274
+### Made by NWhut#4274
 
 ## Booting the Library
 ```lua
