@@ -19,6 +19,9 @@ function Library:NewWindow(options)
 		gui["1"] = Instance.new("ScreenGui", game:GetService("RunService"):IsStudio() and game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui") or game.CoreGui);
 		gui["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 		gui["1"]["Name"] = [[Damb]]
+		
+		gui["69"] = Instance.new("UIPadding", gui["7"]);
+		gui["69"]["PaddingTop"] = UDim.new(0,1);
 
 		-- StarterGui.ScreenGui.Frame
 		gui["2"] = Instance.new("Frame", gui["1"]);
