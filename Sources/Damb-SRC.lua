@@ -21,7 +21,7 @@ function Library:NewWindow(options)
 		gui["1"]["Name"] = [[Damb]]
 		
 		gui["69"] = Instance.new("UIPadding", gui["7"]);
-		gui["69"]["PaddingTop"] = UDim.new(0,3);
+		gui["69"]["PaddingTop"] = UDim.new(0,6);
 
 		-- StarterGui.ScreenGui.Frame
 		gui["2"] = Instance.new("Frame", gui["1"]);
