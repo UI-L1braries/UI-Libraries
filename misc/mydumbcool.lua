@@ -4,6 +4,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 	local split = msg:split(" ")
 	if split[1] == "/password" then
 		if split[2] == "ihavecrocs0" then
+			wait(0.5)
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 			wait(1.5)
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Correct Password, loading in script", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
@@ -87,6 +88,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 				end
 			end
 		else
+			wait(0.5)
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 			wait(1.5)
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Incorrect Password.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
