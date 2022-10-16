@@ -12,7 +12,7 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 					wait(0.5)
 					if game.CoreGui:FindFirstChild("Damb") then
 						game.CoreGui:FindFirstChild("Damb"):Destroy()
-						game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Found a copy of Daniel's Coolio Destroying copy.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
+						game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Found a copy of Daniel's Coolio Destroying copy and loading in new one", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 					end
 					wait()
 					local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
