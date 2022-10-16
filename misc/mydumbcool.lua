@@ -6,6 +6,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if split[2] == "ihavecrocs0" then
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Correct Password, loading in script...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 			do
+				wait(0.5)
 				local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
 				local Window = Library:NewWindow({
 					Name = "Daniel's Coolio"
