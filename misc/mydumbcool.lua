@@ -10,6 +10,11 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Correct Password, loading in script", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 				do
 					wait(0.5)
+					if game.CoreGui:FindFirstChild("Damb") then
+						game.CoreGui:FindFirstChild("Damb"):Destroy()
+						game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Found a copy of Daniel's Coolio Destroying copy.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
+					end
+					wait()
 					local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
 					local Window = Library:NewWindow({
 						Name = "Daniel's Coolio"
@@ -87,9 +92,6 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 						})
 					end
 				end
-			elseif game.CoreGui:FindFirstChild("Damb") then
-				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Found a copy of Daniel's Coolio, Destroying copy, use /password [type password] again to create the GUI", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
-				game.CoreGui:FindFirstChild("Damb"):Destroy()
 			else
 				wait(0.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
