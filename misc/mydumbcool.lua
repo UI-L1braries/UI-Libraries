@@ -87,11 +87,15 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 						})
 					end
 				end
+			elseif game.CoreGui:FindFirstChild("Damb") then
+				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Found a copy of Daniel's Coolio, Destroying copy, use /password [type password] again to create the GUI", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
+				game.CoreGui:FindFirstChild("Damb"):Destroy()
 			else
 				wait(0.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 				wait(1.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Incorrect Password.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
+				
 			end
 		end
 	end)
