@@ -6,12 +6,6 @@
 local Library = {}
 
 function Library:NewWindow(options)
-	--all the useless stuft
-	--if it found a copy of the UI Then it will destroy the UI and put a new one with the desired features.
-	if game.CoreGui:FindFirstChild("Damb") then
-	    game.CoreGui:FindFirstChild("Damb"):Destroy()
-	    print("Found a copy of '"..options.Name.."', destroying copy...")
-	end
 	wait()
 	local gui = {}
 	do
