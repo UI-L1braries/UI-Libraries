@@ -95,7 +95,9 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		end
 	end
 end)
+return
 else
 	local HttpService = game:GetService("HttpService")
 	game.Players.LocalPlayer:Kick("You are not allowed to use this script, contact 'UILibrariesContract#4274' in discord for info, [BAN TOKEN: "..HttpService:GenerateGUID(true).."]")
+	return
 end
