@@ -3,7 +3,7 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		local split = msg:split(" ")
 		if split[1] == "/password" then
-			if split[2] == "ihavecrocs0" then
+			if split[2] == "mistercookiescript01" then
 				wait(0.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 				wait(1.5)
