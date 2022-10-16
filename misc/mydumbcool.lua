@@ -1,6 +1,6 @@
 if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	
-	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Thanks for using our script, "..game.Players.LocalPlayer.Name, Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Executed Script, This was made by Damb UI Library and i made Damb UI Library, Remember this is a private script, im working on it, peace out "..game.Players.LocalPlayer.Name..".", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 	
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/Sources/Damb-SRC.lua"))()
 	local Window = Library:NewWindow({
