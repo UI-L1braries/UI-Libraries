@@ -92,6 +92,9 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 							Duration = 10
 						})
 					end
+					wait(5)
+					game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Remember this, don't execute 2 times or your roblox game client could crash.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
+					
 				end
 			else
 				wait(0.5)
