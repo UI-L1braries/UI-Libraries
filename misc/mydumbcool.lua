@@ -50,6 +50,14 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 			end
 		end
 	})
+	local AButton = Window:CreateButton({
+		Name = "Prison life Admin",
+		Callback = function()
+			do
+				loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+			end
+		end
+	})
 	local Label = Window:CreateLabel({
 		Name = "hello frickin "..game.Players.LocalPlayer.Name.."."
 	})
