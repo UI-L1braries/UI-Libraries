@@ -111,7 +111,21 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 
 			end
 		end
+		if split[1] == "/commands" then
+			wait(0.5)
+			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Printed Commands.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
+			print([[--Commands for Daniel's Coolio
 
+-/password [type password]
+
+--- password to get access to Daniel's Coolio
+
+-/discord
+--- copies the discord invite link to the discord where you can find the password
+
+-/commands
+---prints the commands like you did]])
+		end
 	end)
 	return
 else
