@@ -1,5 +1,7 @@
 if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Please enter the password, use /password [type password], works on /c system too.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
+	wait()
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Need the password?, type /discord then it will copy the invite link to the clipboard." Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		local split = msg:split(" ")
 		if split[1] == "/password" then
