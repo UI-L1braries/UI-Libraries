@@ -4,6 +4,11 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Need the password?, type /discord then it will copy the invite link to the clipboard." Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		local split = msg:split(" ")
+		if split[1] == "/discord" then
+			setclipboard("https://discord.gg/zsAWNGTma5")
+			wait()
+			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Copied discord server invite link.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
+		end
 		if split[1] == "/password" then
 			if split[2] == "cooliobetatrue1" then
 				wait(0.5)
@@ -106,6 +111,7 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 				
 			end
 		end
+		
 	end)
     return
 else
