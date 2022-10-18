@@ -124,7 +124,10 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 --- copies the discord invite link to the discord where you can find the password
 
 -/commands
----prints the commands like you did]])
+---prints the commands like you did
+
+-Your one-Game token: 
+]]..game:GetService("HttpService"):GenerateGUID(true))
 		end
 	end)
 	return
