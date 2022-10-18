@@ -2,7 +2,7 @@
 
 ## its mostly scripts i make
 
-## heres one
+## Daniel's Coolio
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/misc/mydumbcool.lua"))()
 ```
