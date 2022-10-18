@@ -1,7 +1,7 @@
 if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Please enter the password, use /password [type password], works on /c system too.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 	wait()
-	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Need the password?, type /discord then it will copy the invite link to the clipboard." Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Need the password?, type /discord then it will copy the invite link to the clipboard.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		local split = msg:split(" ")
 		if split[1] == "/discord" then
@@ -101,19 +101,19 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 					end
 					wait(10)
 					game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Remember this, don't execute this script 2+ times or your roblox game client could crash.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
-					
+
 				end
 			else
 				wait(0.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 				wait(1.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Incorrect Password.", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
-				
+
 			end
 		end
-		
+
 	end)
-    return
+	return
 else
 	local HttpService = game:GetService("HttpService")
 	game.Players.LocalPlayer:Kick("You are not allowed to use this script, contact 'UILibrariesContract#4274' in discord for info, [BAN TOKEN: "..HttpService:GenerateGUID(true).."]")
