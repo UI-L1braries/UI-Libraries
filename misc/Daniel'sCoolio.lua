@@ -10,7 +10,7 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Copied discord server invite link.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
 		end
 		if split[1] == "/password" then
-			if split[2] == "cooliobetatrue1" then
+			if split[2] == "hekindalookinghacker6" then
 				wait(0.5)
 				game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio]: Checking Password...", Color = Color3.fromRGB(142, 255, 238), Font = Enum.Font.SourceSansBold})
 				wait(1.5)
