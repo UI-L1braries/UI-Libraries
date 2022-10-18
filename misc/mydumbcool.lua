@@ -6,7 +6,7 @@ if game.Players.LocalPlayer.UserId == 3975293822 or 3974668304 then
 		local split = msg:split(" ")
 		if split[1] == "/discord" then
 			setclipboard("https://discord.gg/zsAWNGTma5")
-			wait()
+			wait(0.5)
 			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{Text = "[Daniel's Coolio Tips]: Copied discord server invite link.", Color = Color3.fromRGB(0, 255, 200), Font = Enum.Font.SourceSansBold})
 		end
 		if split[1] == "/password" then
