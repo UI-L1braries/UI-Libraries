@@ -6,3 +6,7 @@
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/misc/Daniel'sCoolio.lua"))()
 ```
+## entity spawner
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-L1braries/UI-Libraries/main/misc/entityspawner.lua"))()
+```
