@@ -1,4 +1,3 @@
-getgenv().SecureMode = true
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Window = Rayfield:CreateWindow({
 	Name = "David's GUI (Key System)",
@@ -8,15 +7,16 @@ local Window = Rayfield:CreateWindow({
 		Enabled = true,
 		FileName = "DavidKeySystem_KEYCODE=69420"
 	},
-	KeySystem = false, -- Set this to true to use our key system
+	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "Sirius Hub",
 		Subtitle = "Key System",
-		Note = "Join the discord (discord.gg/sirius)",
-		Key = "ABCDEF"
+		Note = "The key is 'd!getsystem'",
+		Key = "d!getsystem"
 	}
 })
 local Tab = Window:CreateTab("key system")
+local CTab = Window:CreateTab("Credits")
 local Input = Tab:CreateInput({
 	Name = "Key",
 	PlaceholderText = "insert key",
@@ -193,4 +193,5 @@ local Button = Tab:CreateButton({
 		Rayfield:Notify("Copied Discord Invite Link","Successfully copied the discord invite link to get the key!",10010348543) -- (t,c,image)
 	end,
 })
+local CLabel = CTab:CreateLabel("Credits to Sirius for the UI Library and my brother, @2resc on roblox, for the idea.")
 Rayfield:LoadConfiguration()
