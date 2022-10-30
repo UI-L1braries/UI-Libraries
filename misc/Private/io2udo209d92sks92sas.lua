@@ -1,3 +1,5 @@
+setclipboard("d!getsystem") --setclipboard()
+task.wait()
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Window = Rayfield:CreateWindow({
 	Name = "David's GUI (Key System)",
@@ -11,7 +13,7 @@ local Window = Rayfield:CreateWindow({
 	KeySettings = {
 		Title = "David's GUI",
 		Subtitle = "Key System",
-		Note = "The key is 'd!getsystem'",
+		Note = "The key to enter the key system has been copied to the clipboard.",
 		Key = "d!getsystem"
 	}
 })
