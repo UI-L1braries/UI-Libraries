@@ -9,9 +9,9 @@ local Window = Rayfield:CreateWindow({
 	},
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-		Title = "Sirius Hub",
+		Title = "David's GUI (Key System)",
 		Subtitle = "Key System",
-		Note = "The key is 'd!getsystem'",
+		Note = "The key is 'd!getsystem' to enter the key system",
 		Key = "d!getsystem"
 	}
 })
