@@ -9,9 +9,9 @@ local Window = Rayfield:CreateWindow({
 	},
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-		Title = "David's GUI (Key System)",
+		Title = "David's GUI",
 		Subtitle = "Key System",
-		Note = "The key is 'd!getsystem' to enter the key system",
+		Note = "The key is 'd!getsystem'",
 		Key = "d!getsystem"
 	}
 })
@@ -174,6 +174,12 @@ local Input = Tab:CreateInput({
 							v:Destroy()
 						end
 						warn("you got trolled lol - David's GUI")
+					end
+				})
+				local eaganeru = Window:CreateButton({
+					Name = "Cloud Hub",
+					Callback = function()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
 					end
 				})
 			end
